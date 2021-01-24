@@ -23,7 +23,8 @@
     "supertest": "6.0.1"
   },
   "scripts": {
-    "test": "grunt --verbose"
+    "test": "grunt --verbose",
+    "start": "web /sbin/my_init"
   },
   "dependencies": {
     "argon2": "0.27.0",
