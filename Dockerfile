@@ -5,7 +5,7 @@ CMD ["/sbin/my_init"]
 ## Setup Countly
 ENV INSIDE_DOCKER 1
 
-EXPOSE 80
+## EXPOSE 80
 
 ## Add MongoDB data volume
 VOLUME ["/var/lib/mongodb"]
