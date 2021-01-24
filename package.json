@@ -24,7 +24,7 @@
   },
   "scripts": {
     "test": "grunt --verbose",
-    "start": "web /sbin/my_init"
+    "start": "/sbin/my_init"
   },
   "dependencies": {
     "argon2": "0.27.0",
